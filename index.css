@@ -1,0 +1,214 @@
+body{
+  background-color: #f4f4f4;
+  color:#555;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height:1.6em;
+  margin:0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+
+  overflow-y: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+#mainheader{
+  background-color: #333;
+  color:;
+  position:fixed;
+  padding: 10px;
+  width:100%;
+  height:;
+  border-style: double;
+  border-color: red;
+}
+#mainheader a{
+  text-decoration: none;
+}
+#navbar{
+  background-color: #333;
+  color#fff;
+  float: right;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#showcase{
+  float: right;
+background-image: url(https://media.discordapp.net/attachments/866186185822699530/866327307379539968/Part_of.png);
+background-position: center;
+min-height: 444px;
+width: 100%;
+margin-bottom: 0px;
+text-align: center;
+background-repeat: no-repeat;
+padding-left: 10px;
+margin-left: 10px;
+overflow: hidden;
+margin-top: 10px;
+padding-top: 10px;
+}
+#showcase h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+#main{
+float:left;
+width:70%;
+padding: 0px 30px;
+box-sizing:border-box;
+}
+
+#sidebar{
+float:right;
+width:30%;
+background: #333;
+color: #fff;
+padding: 10px;
+box-sizing:border-box;
+border-style: double;
+border-color: red;
+}
+
+#mainfooter{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-style: double;
+  border-color: red;
+}
+
+@media (max-width:300px){
+  #main{
+    width:100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float:none;
+  }
+}
+#sidebar h6{
+  padding: 0;
+  margin: 0;
+}
+#members{
+  float:left;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px;
+  color: coral;
+  border: ;
+  box-sizing: border-box;
+  background: #313030;
+  border-style:double;
+  border-color: red;
+}
+#members img{
+  width: 100px;
+  height: 100px;
+}
+.drippers img{
+margin-left: 10px;
+padding-left: 10px;
+}
+
+.Builder img{
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.zoom img{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+}
+
+#members img:hover{
+  zoom:2.0;
+}
+
+#rightbar ul{
+  padding: 3;
+list-style: none;
+}
+
+#rightbar li{
+  padding-top: 50px;
+  margin-top: 50px;
+  display:;
+}
+#rightbar{
+  float: left;
+  height: 100%;
+  width: 130px;
+  margin: 0px;
+  padding: 0px;
+  background-color: silver;
+  position: fixed;
+  scroll-behavior: smooth;
+  color: red;
+  border-style: double;
+  border-color: red;
+}
+#rightbar a{
+  color: black;
+  text-decoration: none;
+}
+
+#rightbar a:hover{
+  color: red;
+}
+
+#rightbar h4{
+  padding-top: 110px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#rightbar button{
+  height: 129px;
+  width: 129px;
+  background-color: silver;
+  border: none;
+  color: red;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-style: solid;
+  border-color: gray;
+}
+#rightbarimage{
+border-style: solid;
+border-color: gray;
+}
+
+/*done lesgoo*/
